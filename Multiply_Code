@@ -2,10 +2,10 @@
 #include<stdio.h>
 int main()
 {
-	int num1,num2,product;
+	int num1,num2,PRODUCT;
 	printf("Enter two numbers:");
 	scanf("%d %d",&num1,&num2);
-	product=num1*num2;
-	printf("Product of two numbers: %d",product);
+	PRODUCT=num1*num2;
+	printf("Product of two numbers: %d",PRODUCT);
 	return  0;
 }
